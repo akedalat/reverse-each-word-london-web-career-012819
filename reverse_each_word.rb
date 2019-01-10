@@ -5,5 +5,5 @@ array.each do |words|
   reversed_array.push(words.reverse)
 
 end
-return reversed_array
+return reversed_array.join
 end
