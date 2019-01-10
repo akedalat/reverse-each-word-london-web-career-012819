@@ -3,3 +3,4 @@ array = string.split(" ")
 array.each do |words|
   words.reverse
 end
+end
