@@ -5,6 +5,6 @@ array.each do |words|
   reversed_array.push(words.reverse)
 
 end
-result = reversed_array.join
+result = reversed_array.join(" ")
 return result
 end
